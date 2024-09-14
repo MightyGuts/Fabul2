@@ -1,0 +1,122 @@
+body {
+    background-color: #2C2C2C;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+* {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 50px;
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 1%;
+}
+
+
+
+.small-block {
+    background-color: #4FBDBA;
+    color: #2C2C2C;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+button.btn {
+    background-color: #4FBDBA;
+    color: #2C2C2C;
+    border: 2px solid #4FBDBA;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+button.btn a {
+    color: #2C2C2C;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+}
+
+button.btn:hover {
+    background-color: #39889A;
+    border: 2px solid #39889A;
+}
+
+h2 {
+    color: #E0E0E0;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: #E0E0E0;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.side-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10px;
+    transition: transform 0.3s ease;
+}
+.side-blocks:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+a{
+    color: transparent;
+    background: transparent;
+    font-size: 15px;
+}
+/*Button - small*/
+.button-enlarge {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.button-enlarge:hover {
+    transform: scale(1.2); 
+}
+/*Button - big*/
+.confidentiality {
+    position: absolute;
+    bottom: 0; /* Прикрепляем к нижней части страницы */
+    left: 0;
+    right: 0; /* Расширяет блок по всей ширине экрана */
+    font-size: 14px;
+    text-align: center; /* Центрируем текст внутри блока */
+    padding: 10px 0;
+    background-color: #2C2C2C; /* Опционально, чтобы выделить блок */
+}
+
+
